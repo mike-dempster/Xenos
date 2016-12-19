@@ -1,0 +1,4 @@
+﻿Xml serializer configures the .NET serializer in three phases.
+* The first phase is configuration. This phase adds the entities and properties to the context along with setting up names, required/optional settings, and exclusions.
+* The second phase is buildup. This phase allows the entity and property configuration classes to prepare for binding to the underlying serializer by assessing the completed configuration and performing the necessary work.
+* The third phase is the binding phase. This phase sees the creation of the underlying serializer and the configuration based on the setup from the previous phases.
